@@ -8,4 +8,26 @@
   text-align: left;
   text-transform: uppercase;
   margin: 8px auto;
+  box-sizing: border-box;
+}
+
+/* стили для широкоформатных экранов' */
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    padding: 0 48px 0;
+  }
+}
+
+/* стили для планшета */
+@media all and (max-width: 768px) {
+  .lead__caption {
+    padding: 0 24px 0;
+  }
+}
+
+/* стили для смартфонов */
+@media all and (max-width: 425px) {
+  .lead__caption {
+    padding: 0 16px 0;
+  }
 }

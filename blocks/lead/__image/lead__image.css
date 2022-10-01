@@ -2,7 +2,15 @@
   max-width: 984px;
   width: 100%;
   object-fit: cover;
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin: 56px 0 0;
   padding: 0;
+}
+
+
+/* стили для широкоформатных экранов' */
+@media screen and (min-width: 1024px) {
+  .page {
+    padding: 0 48px 0;
+  }
 }
