@@ -1,0 +1,16 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 48px 0;
+  margin: 0;
+}
+
+/* стили для больших настольных компьютеров и ноутбуков */
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding-top: 56px;
+  }
+}

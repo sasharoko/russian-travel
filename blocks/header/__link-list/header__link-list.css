@@ -1,4 +1,4 @@
-.link-list {
+.header__link-list {
   display: flex;
   justify-content: flex-end;
   gap: 18px;
@@ -7,6 +7,6 @@
   margin: 0;
 }
 
-.link-list li:first-child {
+.header__link-list li:first-child {
   text-decoration: underline;
 }

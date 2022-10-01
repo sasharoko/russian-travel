@@ -1,0 +1,16 @@
+.lead__subtitle {
+  max-width: 640px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  margin: 32px 0 0;
+}
+
+/* стили для смартфонов */
+@media all and (max-width: 768px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
