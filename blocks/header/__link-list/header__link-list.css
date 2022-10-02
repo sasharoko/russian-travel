@@ -1,6 +1,7 @@
 .header__link-list {
   display: flex;
   justify-content: flex-end;
+  justify-self: space-between;
   gap: 18px;
   list-style-type: none;
   padding: 0;

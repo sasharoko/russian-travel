@@ -1,0 +1,25 @@
+.intro__list {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  padding: 0;
+  margin: 33px 0;
+  max-width: 690px;
+  box-sizing: border-box;
+}
+
+/* стили для широких мобильных устройств' */
+@media all and (max-width: 1024px) {
+  .intro__list {
+    max-width: 100%;
+  }
+}
+
+/* стили для мобильных устройств' */
+@media all and (max-width: 768px) {
+  .intro__list {
+    max-width: 100%;
+    margin-top: 34px;
+  }
+}

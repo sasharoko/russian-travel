@@ -1,0 +1,15 @@
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%;
+  max-width: 690px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* стили для мобильных устройств' */
+@media all and (max-width: 1024px) {
+  .intro__title {
+    max-width: 100%;
+  }
+}
