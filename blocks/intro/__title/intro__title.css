@@ -3,13 +3,16 @@
   font-size: 54px;
   line-height: 107%;
   max-width: 690px;
+  width: 100%;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 /* стили для мобильных устройств' */
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
   .intro__title {
-    max-width: 100%;
+    font-size: 32px;
+    line-height: 109%;
   }
 }

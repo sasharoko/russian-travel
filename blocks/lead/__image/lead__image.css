@@ -3,7 +3,20 @@
   width: 100%;
   object-fit: cover;
   box-sizing: border-box;
-  margin: 56px 0 0;
+  margin: 56px 48px 0;
   padding: 0;
 }
 
+/* стили для планшета */
+@media all and (max-width: 768px) {
+  .lead__image {
+    margin: 40px 24px 0;
+  }
+}
+
+/* стили для смартфонов */
+@media all and (max-width: 425px) {
+  .lead__image {
+    margin: 0;
+  }
+}

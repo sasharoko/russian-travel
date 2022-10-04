@@ -1,0 +1,14 @@
+.place__content {
+  align-self: start;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* стили для смартфонов */
+@media all and (max-width: 425px) {
+  .place__content {
+    padding: 0 16px 0;
+  }
+}
+

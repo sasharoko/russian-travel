@@ -1,0 +1,28 @@
+.place__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  padding: 0;
+  margin: 25px 0 0;
+  width: 100%;
+  box-sizing: border-box;
+  align-self: start;
+}
+
+.place__paragraph:first-child {
+  margin: 0;
+}
+
+/* стили для планшета */
+@media all and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+}
+
+/* стили для смартфонов */
+@media all and (max-width: 425px) {
+  .place__paragraph {
+    margin-top: 25px;
+  }
+}
