@@ -1,0 +1,27 @@
+.cover__title {
+  justify-self: center;
+  align-self: end;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  max-width: 560px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* стили для мобилок */
+@media all and (max-width: 750px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    padding: 0 16px 0;
+  }
+}

@@ -10,7 +10,7 @@
 }
 
 /* стили для планшета */
-@media all and (max-width: 768px) {
+@media all and (max-width: 750px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 125%;
