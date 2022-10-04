@@ -9,3 +9,8 @@
   margin: 12px 0 0;
   color: #fff;
 }
+
+.place__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.1s ease-in;
+}
