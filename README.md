@@ -8,12 +8,15 @@
 **Интро**
 
 [Ссылка на GitHub](https://github.com/sasharoko/russian-travel)
+
 Проект о путешествии по России, адаптированный для самых распространённых разрешений экранов.
 
 **Вёрстка**
 
 Проект реализовывался по макету
+
 [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+
 Основные используемые брейкпоинты:
 - 1280px
 - 1024px
