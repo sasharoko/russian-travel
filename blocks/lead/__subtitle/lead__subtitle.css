@@ -3,16 +3,17 @@
   width: 100%;
   font-weight: 400;
   font-size: 30px;
-  line-height: 120%;
+  line-height: 1.2;
   text-align: center;
   margin: 32px 0 0;
   padding: 0;
 }
 
-/* стили для планшета */
+/* стили для мобилок */
 @media all and (max-width: 750px) {
   .lead__subtitle {
+    margin-top: 16px;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
   }
 }

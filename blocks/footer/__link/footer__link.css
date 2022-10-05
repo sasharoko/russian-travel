@@ -1,0 +1,18 @@
+.footer__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.12;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* стили для мобилок */
+@media all and (max-width: 750px) {
+  .footer__link {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    font-size: 24px;
+    line-height: 1;
+  }
+}

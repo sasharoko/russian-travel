@@ -12,9 +12,17 @@
   box-sizing: border-box;
 }
 
-/* стили для мобилок */
-@media all and (max-width: 750px) {
+/* стили для планшетов */
+@media all and (max-width: 768px) {
   .cover {
+    margin: 90px 0 0;
+  }
+}
+
+/* стили для мобилок */
+@media all and (max-width: 650px) {
+  .cover {
+    margin: 66px 0 0;
     row-gap: 16px;
   }
 }

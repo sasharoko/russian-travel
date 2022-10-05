@@ -1,0 +1,19 @@
+.footer__links {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+/* стили для мобилок */
+@media all and (max-width: 750px) {
+  .footer__links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+}

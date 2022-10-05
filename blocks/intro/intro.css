@@ -10,7 +10,14 @@
 /* стили для планшетов */
 @media all and (max-width: 768px) {
   .intro {
-    padding: 64px 24px 0;
+    padding: 88px 24px 0;
+  }
+}
+
+/* стили для планшетов */
+@media all and (max-width: 750px) {
+  .intro {
+    padding-top: 64px;
   }
 }
 

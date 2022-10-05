@@ -14,7 +14,7 @@
 /* стили для горизонтальной ориентации планшетов */
 @media all and (max-width: 1024px) {
   .places {
-    padding: 0 48px 0;
+    padding: 88px 48px 0;
     gap: 72px;
   }
 }

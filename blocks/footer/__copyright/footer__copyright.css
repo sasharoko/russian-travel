@@ -1,0 +1,20 @@
+.footer__copyright {
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: right;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* стили для мобилок */
+@media all and (max-width: 750px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
+

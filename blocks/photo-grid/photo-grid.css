@@ -2,7 +2,7 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  max-width: 1184px;
+  max-width: 1280px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
@@ -19,7 +19,7 @@
 }
 
 /* стили для планшета */
-@media all and (max-width: 768px) {
+@media all and (max-width: 930px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     padding: 88px 24px 0;

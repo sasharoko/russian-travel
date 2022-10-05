@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-items: space-between;
+  align-items: flex-end;
+  max-width: 1184px;
+  width: 100%;
+  background: #2A2C2F;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 92px 48px 24px;
+  box-sizing: border-box;
+}
+
+/* стили для планшета */
+@media all and (max-width: 930px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+/* стили для мобилок */
+@media all and (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+    padding: 64px 16px 24px;
+  }
+}

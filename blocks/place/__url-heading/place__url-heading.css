@@ -2,8 +2,11 @@
   width: 100%;
   font-weight: 400;
   font-size: 12px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaa;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

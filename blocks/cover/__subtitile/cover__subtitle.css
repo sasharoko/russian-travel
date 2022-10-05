@@ -13,10 +13,11 @@
   margin: 0;
   box-sizing: border-box;
   z-index: 1;
+  pointer-events: none;
 }
 
 /* стили для мобилок */
-@media all and (max-width: 750px) {
+@media all and (max-width: 650px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;

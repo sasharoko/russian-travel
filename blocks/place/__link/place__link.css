@@ -1,12 +1,12 @@
 .place__link {
   font-weight: 400;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 1.22;
   text-decoration-line: underline;
   width: 100%;
+  margin-top: 0;
   padding: 0;
   box-sizing: border-box;
-  margin: 12px 0 0;
   color: #fff;
 }
 
