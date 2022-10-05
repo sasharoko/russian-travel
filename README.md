@@ -7,7 +7,7 @@
 
 **Интро**
 
-[Ссылка на GitHub](https://github.com/sasharoko/russian-travel)
+[Ссылка на GitHub Pages](https://sasharoko.github.io/russian-travel/l)
 
 Проект о путешествии по России, адаптированный для самых распространённых разрешений экранов.
 
