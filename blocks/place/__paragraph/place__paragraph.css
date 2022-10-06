@@ -13,14 +13,14 @@
   margin: 0;
 }
 
-/* стили для планшета */
-@media all and (max-width: 1024px) {
+/* стили для планшетов */
+@media all and (max-width: 930px) {
   .place__paragraph {
     font-size: 16px;
   }
 }
 
-/* стили для смартфонов */
+/* стили для мобилок */
 @media all and (max-width: 425px) {
   .place__paragraph {
     margin-top: 25px;

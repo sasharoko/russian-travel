@@ -1,0 +1,35 @@
+.photo-grid__image-list {
+  list-style-type: none;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* стили для широкоформатных экранов */
+@media all and (min-width: 1280px) {
+  .photo-grid__image-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* стили для планшета */
+@media all and (max-width: 930px) {
+  .photo-grid__image-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* стили для смартфонов */
+@media all and (max-width: 425px) {
+  .photo-grid__image-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

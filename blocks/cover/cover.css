@@ -2,8 +2,8 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-column: 1 1000px;
-  grid-row: 2 1fr;
+  grid-column: 1000px;
+  grid-row: repeat(2, 1fr);
   row-gap: 32px;
   width: 100%;
   height: 100%;

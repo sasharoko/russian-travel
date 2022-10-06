@@ -1,13 +1,8 @@
 .header__link-list {
   display: flex;
   justify-content: flex-end;
-  justify-self: space-between;
   gap: 18px;
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-
-.header__link-list li:first-child {
-  text-decoration: underline;
 }

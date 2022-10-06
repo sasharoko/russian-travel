@@ -8,9 +8,9 @@
   letter-spacing: 1.5px;
   text-align: left;
   text-transform: uppercase;
-  margin: 8px 48px 0;
+  padding: 8px 48px 0;
   box-sizing: border-box;
-  padding: 0;
+  margin: 0;
 }
 
 /* двигаем подпись как только фото встаёт по ширине */
@@ -23,15 +23,13 @@
 /* стили для планшета */
 @media all and (max-width: 768px) {
   .lead__caption {
-    margin: 8px auto 0;
-    padding: 0 24px 0;
+    padding: 8px 24px 0;
   }
 }
 
 /* стили для смартфонов */
 @media all and (max-width: 425px) {
   .lead__caption {
-    margin: 8px auto 0;
-    padding: 0 16px 0;
+    padding: 8px 16px 0;
   }
 }

@@ -6,6 +6,11 @@
   color: #fff;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.1s ease-in;
+}
+
 /* стили для мобилок */
 @media all and (max-width: 750px) {
   .footer__link {

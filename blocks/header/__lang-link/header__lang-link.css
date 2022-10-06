@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: opacity 0.1s ease-in;
+}
 
 /* стили для смартфонов */
 @media all and (max-width: 425px) {

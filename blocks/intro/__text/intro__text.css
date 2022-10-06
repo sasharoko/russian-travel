@@ -9,7 +9,7 @@
 }
 
 /* стили для мобильных устройств' */
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
   .intro__text {
     max-width: 100%;
   }

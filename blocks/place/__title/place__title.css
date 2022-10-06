@@ -8,8 +8,8 @@
   margin: 0;
 }
 
-/* стили для планшета */
-@media all and (max-width: 1024px) {
+/* стили для планшетов */
+@media all and (max-width: 930px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;

@@ -9,10 +9,6 @@
   box-sizing: border-box;
 }
 
-.intro__list span {
-  font-weight: 400;
-}
-
 /* стили для широких мобильных устройств' */
 @media all and (max-width: 1024px) {
   .intro__list {
