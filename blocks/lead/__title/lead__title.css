@@ -11,13 +11,20 @@
   margin: 0;
 }
 
-/* стили для мобилок */
+/* стили для планшетов */
 @media all and (max-width: 750px) {
   .lead__title {
+    padding: 0 24px 0;
     font-size: 40px;
     line-height: 1.1;
   }
 }
 
+/* стили для смартфонов */
+@media all and (max-width: 425px) {
+  .lead__title {
+    padding: 0 16px 0;
+  }
+}
 
 
