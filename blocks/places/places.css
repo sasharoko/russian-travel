@@ -22,7 +22,6 @@
 @media all and (max-width: 768px) {
   .places {
     padding: 88px 24px 0;
-    gap: 50px;
   }
 }
 
@@ -30,5 +29,6 @@
 @media all and (max-width: 425px) {
   .places {
     padding: 64px 0 0;
+    gap: 50px;
   }
 }

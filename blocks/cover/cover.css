@@ -2,12 +2,11 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-column: 1000px;
-  grid-row: repeat(2, 1fr);
   row-gap: 32px;
+  max-width: 1184px;
   width: 100%;
   height: 100%;
-  margin: 92px 0 0;
+  margin: 92px auto 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -20,7 +19,7 @@
 }
 
 /* стили для мобилок */
-@media all and (max-width: 650px) {
+@media all and (max-width: 750px) {
   .cover {
     margin: 66px 0 0;
     row-gap: 16px;

@@ -18,7 +18,7 @@
   pointer-events: none;
 }
 
-/* стили для мобилок */
+/* стили для планшетов */
 @media all and (max-width: 750px) {
   .cover__title {
     font-size: 32px;

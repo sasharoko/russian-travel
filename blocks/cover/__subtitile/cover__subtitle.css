@@ -16,8 +16,8 @@
   pointer-events: none;
 }
 
-/* стили для мобилок */
-@media all and (max-width: 650px) {
+/* стили для планшетов */
+@media all and (max-width: 750px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;
